@@ -1,0 +1,53 @@
+body{
+    background-color: coral;
+    box-sizing: border-box;
+    width: 1200px;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+}
+main {
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+div{
+
+    position:relative;
+    display: inline-block;
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 8px 5px rgba(0,0,0,0.73);
+
+}
+.blok1 {
+
+    left: 225px;
+    z-index: 4;
+    background-color: rgba(255, 180, 168, 0.5)
+
+}
+.blok2 {
+    top: 33px;
+    z-index: 3;
+    background-color: rgba(227, 116, 99, 0.5)
+}
+.blok3{
+
+    top: 65px;
+    left: -225px;
+    z-index: 2;
+    background-color: rgba(219, 87, 67, 0.5)
+}
+.blok4{
+    top: 95px;
+    left: -452px;
+    z-index: 1;
+    background-color: rgba(219, 87, 67, 1)
+
+}
